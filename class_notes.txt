@@ -1,0 +1,221 @@
+MERN Stack    
+==========
+
+M - MongoDB         (DataBase)
+
+E - ExpressJS       (Rest API'S) (GET,POST,PUT,DELETE,HEAD,......)
+
+R - ReactJS         (FrontEnd)
+
+N - NodeJS          (BackEnd)
+
+
+                                            MongoDB
+                                            -------
+    - MongoDB is NoSQL DataBase .
+
+    - MongoDB Supports JSON.
+        (JavaScript Object Notation).
+
+    - MongoDB DataBase is light weight DataBase.
+
+    - MongoDB Supports "Cloud" Environment
+
+        URL : https://account.mongodb.com/account/login
+
+    Comparision
+    -----------
+
+    SQL                                                     NoSQL
+    ----------------------------------------------------------------------------
+    Ex
+        Oracle                                              MongoDB
+
+        MySQL                                               CassandraDB
+
+        SQLServer
+
+
+    2) databases                                            databases
+
+
+    3) tables                                               collections
+
+
+    4) rows                                                 records
+
+
+    5) primary key                                          _id
+    ----------------------------------------------------------------------------------------------
+
+
+    DataBase Name : ecommerce
+
+    collection  : products
+
+    password   :  admin
+
+    user        :  admin
+
+
+ 27 - 04 - 2021
+ --------------
+
+ 1) https://mern11am.s3.ap-south-1.amazonaws.com/p1.jpg
+
+ 2) https://mern11am.s3.ap-south-1.amazonaws.com/p2.jpg
+
+ 3) https://mern11am.s3.ap-south-1.amazonaws.com/p3.jpg
+
+ 4) https://mern11am.s3.ap-south-1.amazonaws.com/p4.jpg
+
+ 5) https://mern11am.s3.ap-south-1.amazonaws.com/p5.jpg
+
+ 6) https://mern11am.s3.ap-south-1.amazonaws.com/p6.jpg
+
+ *********************************************************************************************
+
+=> downloaded few images
+
+=> made the images as cloud images   (AWS Server) (s3 bucket)
+
+=> stored all images entries in MongoDB DataBase
+**********************************************************************************************
+
+
+28-04-2021
+==========
+DataBase Details
+
+DataBase Name : ecommerce
+
+table         : products
+
+user          : admin
+
+password      : admin
+
+URL : mongodb+srv://admin:admin@ashokit.2lxmw.mongodb.net/ecommerce?retryWrites=true&w=majority
+
+
+NodeJS
+------
+    - NodeJS is Server Side Technology.
+
+    - NodeJS also called as backend Technology.
+
+    - NodeJS, used to develop the servers.
+
+            Http Server
+
+            TCP Server
+
+    - we will develop NodeJS Applications with the help of JavaScript.
+
+    - NodeJS, Supports libraries.
+
+    - we will download above libraries by using "yarn" tool.
+
+    - all the libraries downloads to "node_modules" folder in current path.
+
+libraries
+---------
+1) express
+
+    - express library used to develop the rest services.
+
+    GET
+    POST
+    PUT
+    DELETE
+    ---
+    ---
+    ---
+
+2) body-parser
+
+    - used to receive the data from client Applications.
+
+
+3) cors
+
+    - used to provide the proper communication between ports available in MERN Stack development
+
+4) mongodb
+
+    - mongodb library used to connect to mongodb database.
+
+
+step 1.
+    create directory
+
+    Ex.
+        server
+
+step 2.
+    switch to server directory
+
+    > cd server
+
+
+step 3.
+    download the node modules
+
+    1) express
+
+    2) mongodb
+
+    3) cors
+
+    4) body-parser
+
+    we will download by using yarn tool.
+
+    > yarn add express body-parser cors mongodb --save
+
+step 4.
+    develop nodejs Application.
+
+    Ex.
+        server.js
+
+step 5.
+    start the node server
+
+    > node server
+
+step 6.
+    test the rest api by using Postman
+
+
+    => http://localhost:8080/products
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
